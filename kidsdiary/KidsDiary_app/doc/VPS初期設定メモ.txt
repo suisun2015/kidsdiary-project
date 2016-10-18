@@ -1,0 +1,14 @@
+
+useradd  max_waltham
+useradd  night_eagle
+
+groupadd developer
+
+mkdir /opt/KidsDiary/
+
+copy server_conf
+
+mariadbの10を追加
+https://downloads.mariadb.org/mariadb/repositories/#mirror=yamagata-university&distro=CentOS&distro_release=centos7-amd64--centos7&version=10.1
+my.cnf ユーザーなどを用意
+

@@ -1,0 +1,1 @@
+$.backstretch("/assets/images/kids2.jpg", {speed: 500});

@@ -1,0 +1,165 @@
+/*@font-face {
+  font-family: roundedMPlus1pRegular;
+  font-style: normal;
+  src: url("/assets/fonts/rounded-mplus-1p-regular.ttf");
+}*/
+html {
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 1.5;
+}
+@media (max-width: 1024px) {
+  html {
+    font-size: 13px;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 11px;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin-top: 3px;
+  margin-top: 0.2rem;
+  margin-bottom: 15px;
+  margin-bottom: 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 7px;
+  margin-bottom: 0.5rem;
+  line-height: 1.1;
+}
+.detail-info {
+  font-size: 18px;
+  font-size: 1.2rem;
+}
+.option-info {
+  font-size: 9px;
+  font-size: 0.6rem;
+  color: #aaa;
+}
+
+/* =========== PetList styles =========== */
+.input-panel {
+  height: 84px;
+  margin: 40px 20px 20px 20px;     padding: 20px;
+  border-radius: 8px;     background: #E8E8E8;
+  overflow: hidden;
+}
+.input-panel h3 {
+  float: left;      padding-top: 30px;
+}
+.input-panel textarea {
+  float: right;      resize: none;
+  width: calc( 100% - 140px );
+}
+
+.plan-table-header {
+  background: #686868;      color: white;
+  text-align: center;         height: 80px;
+  width: calc( 100% - 40px );       margin: 0 auto;
+  overflow: hidden;           border-radius: 12px 12px 0 0;
+}
+.plan-table-header div {
+  height: 100%;     line-height: 80px;
+  float: left;      width: 20%;
+  border-right: 2px solid #c9c9c9;      box-sizing: border-box;
+}
+.plan-table-header div:last-child {
+  border: 0;
+}
+
+.plan-table-row {
+  text-align: center;
+  width: calc( 100% - 40px );       margin: 0 auto;
+  overflow: hidden;           color: black;
+  border-bottom: 2px solid #c9c9c9;     box-sizing: border-box;
+}
+.plan-table-row > div {
+  height: 140px;     line-height: 140px;
+  float: left;      width: 20%;
+  border-right: 2px solid #c9c9c9;      box-sizing: border-box;
+}
+.plan-table-row > div:last-child {
+  border: 0;
+}
+.plan-table-row .item-caption {
+  background: #E8E8E8;
+}
+.plan-table-row .item-caption p {
+  height: 70px;
+  margin: 0;        padding: 0;
+}
+.plan-table-row .item-caption p:first-child {
+  line-height: 130px;
+}
+.plan-table-row .item-caption p:last-child {
+  line-height: 30px;
+}
+.plan-table-row .inside-block {
+  width: 100%;      height: 100%;
+  border: 8px solid #E8E8E8;      box-sizing: border-box;
+}
+.plan-table-row .inside-block:hover {
+  -moz-box-shadow:inset 0px 1px 8px #ab92eb;
+  -webkit-box-shadow:inset 0px 1px 8px #ab92eb;
+  box-shadow:inset 0px 1px 8px #ab92eb;
+}
+
+.plan-table-row .item-group-caption {
+  height: auto;     width: 10%;
+  background: #E8E8E8;
+}
+.plan-table-row .item-group-caption.nursecare {
+  height: 560px;      line-height: 560px;
+}
+.plan-table-row .item-detail-caption {
+  display: block;     width: 100%;      height: 140px;
+  border-bottom: 2px solid #c9c9c9;   box-sizing: border-box;
+}
+.plan-table-row .item-detail-caption:last-child {
+  border: 0;
+}
+.plan-table-row .item-content-col {
+  width: 20%;       height: auto;
+  border-right: 0;
+}
+.plan-table-row .item-content-col > div {
+  display: block;     width: 100%;      height: 140px;
+  border-right: 2px solid #c9c9c9;    border-bottom: 2px solid #c9c9c9;     box-sizing: border-box;
+}
+.plan-table-row .item-content-col > div:last-child {
+  border-bottom: 0;
+}
+
+.plan-table-row .item-group-caption.teaching {
+  height: 420px;      line-height: 420px;
+}
+
+.plan-table-footer {
+  height: 30px;     background: #E8E8E8;
+  border-radius: 0 0 12px 12px;
+  width: calc( 100% - 40px );       margin: 0 auto;
+}
+
+.dialog-title {
+  position: absolute;
+  top: -50px;     left: 20px;
+  color: white;     text-shadow: 4px 4px 2px #000000;
+}
+.dialog-trigger {
+  cursor: pointer;
+}

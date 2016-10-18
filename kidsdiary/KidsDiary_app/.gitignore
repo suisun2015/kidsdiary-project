@@ -1,0 +1,17 @@
+logs
+target
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/RUNNING_PID
+/node_modules
+/public/javascripts/all.js
+/public/javascripts/all.js.map
+storage/*
+!storage/README
+.~*
+.*.swp
+.*.bak
+/bin/
