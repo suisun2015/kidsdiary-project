@@ -5,21 +5,18 @@ React/Redux Frontend DevTask for KidsDiary Project
 + [Introducing KidsDiary](http://www.kidsdiary.jp)
 + [Spec by InVision](https://projects.invisionapp.com/share/648EQLKGK#/screens)
 
-![KidsDiary Table snapshot](https://raw.githubusercontent.com/suisun2015/StakTask-Project/master/stakone.jpg)
+![KidsDiary Table snapshot](https://raw.githubusercontent.com/suisun2015/kidsdiary-project/master/snapshot_kidsdiary.png)
 
 ```
-# AngularJS + Node.js(ES6) + PostgreSQL + Knex + Bootstrap + Grunt
+# Frontend: React/Redux, Material UI, Webpack, Gulp, SCSS, Babel
 
-# Frontend: staktask-dev-1-frontend
+# Backend: Java, MariaDB
 
-# Backend: staktask-dev-1-backend
-
-# Deployed on Heroku
+# How to Deploy: kidsdiary/README.md
 ```
 
 Some snippets of the project are available here. e.g.
 
-+ Frontend: `staktask-dev-1-frontend/public/js/controllers/manage_content_ctlr.js`
-+ Backend: `staktask-dev-1-backend/src/server.js`
++ `kidsdiary/KidsDiary_app/javascripts/app/school/petList`
 
 Thank you for your attention!
